@@ -1,11 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- font awsome -->
+    <script
+      src="https://kit.fontawesome.com/6d9018c0ff.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-blakish">
+    <div class="wrapper col-11 mx-auto text-white">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark col-lg-9 mx-auto">
+          <div
+            class="container-fluid d-flex justify-content-between align-items-center"
+          >
+            <a class="navbar-brand" href="#"
+              ><img
+                src="./icons/n-logo.png"
+                alt="Bootstrap"
+                width="70"
+                height="70"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-white active text-white"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <button class="btn btn-info">
+                    <span class="text-white">Resume</span>
+                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <section
+          class="banner mt-5 d-flex flex-column-reverse flex-lg-row align-items-center justify-content-lg-around"
+        >
+          <div class="col-lg-6 mb-2 mb-lg-5">
+            <h1 class="text-info mb-0">HI ! <br />&nbsp; I'M NAYEEM</h1>
+            <p>Web Developer || Django Developer || Problem Solver</p>
+            <p class="fw-light small">
+              I am an enthusiastic Python developer with knowing some framework
+              for the frontend and the backend. I know C/C++ and MySQL but
+              basically a MERN with Django Developer.
+            </p>
+            <div class="d-flex align-items-center gap-4">
+              <a href="#"
+                ><i class="fa fa-github text-info fs-4" aria-hidden="true"></i
+              ></a>
+              <a href="#"
+                ><i class="fa fa-linkedin text-info fs-4" aria-hidden="true"></i
+              ></a>
+              <a href="#"
+                ><i
+                  class="fa fa-facebook-official text-info fs-4"
+                  aria-hidden="true"
+                ></i
+              ></a>
+              <button class="btn btn-info">
+                <span class="text-white">Resume</span>
+                <i class="fa fa-external-link" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-7">
+            <img class="img-fluid rounded-5" src="./images/nayeem.jpg" alt="" />
+          </div>
+        </section>
+      </header>
+      <section class="portfolio mt-5">
+        <h1 class="text-center">Portfolio</h1>
+        <div
+          class="border border-1 border-secondary rounded-5 px-2 pt-lg-0 d-lg-flex col-lg-8 mx-auto justify-content-between align-items-start mb-5"
+        >
+          <div class="mt-3 mt-lg-0 col-lg-6">
+            <img
+              class="img-fluid rounded-5 col-lg-10"
+              src="./projects-img/travel-guru-map.png"
+              alt=""
+            />
+          </div>
+          <div class="mt-2 mt-lg-0 mb-lg-2">
+            <h3 class="text-info">Sportify</h3>
+            <p class="fw-light">
+              An online sports academy management system. User can login via
+              Facebook sign-in,Google Sign-in and also Can Create an New Account
+              for use the services.user can Choice the service as he/she want.
+            </p>
+            <ul class="fw-light small">
+              <li>A full stack website.</li>
+              <li>
+                Protected and secured User, Instructor and Admin dashboard.
+              </li>
+              <li>
+                Instructors can add courses, users can take courses and Admin
+                can make a user, instructor or admin.
+              </li>
+              <li>
+                Technology: ReactJs, React-Router, Tailwind CSS, Font Awesome,
+                ExpressJs, MongoDB, JWT, StripeJs
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="border border-1 border-secondary rounded-5 px-2 pt-lg-0 d-lg-flex col-lg-8 mx-auto justify-content-between align-items-start mb-5"
+        >
+          <div class="mt-3 mt-lg-0 col-lg-6">
+            <img
+              class="img-fluid rounded-5 col-lg-10"
+              src="./projects-img/travel-guru-map.png"
+              alt=""
+            />
+          </div>
+          <div class="mt-2 mt-lg-0 mb-lg-2">
+            <h3 class="text-info">Online School</h3>
+            <p class="fw-light">
+              An online sports academy management system. User can login via
+              Facebook sign-in,Google Sign-in and also Can Create an New Account
+              for use the services.user can Choice the service as he/she want.
+            </p>
+            <ul class="fw-light small">
+              <li>A full stack website.</li>
+              <li>
+                Protected and secured User, Instructor and Admin dashboard.
+              </li>
+              <li>
+                Instructors can add courses, users can take courses and Admin
+                can make a user, instructor or admin.
+              </li>
+              <li>
+                Technology: ReactJs, React-Router, Tailwind CSS, Font Awesome,
+                ExpressJs, MongoDB, JWT, StripeJs
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="skills mt-5 d-lg-flex justify-content-evenly align-items-center"
+      >
+        <div>
+          <div class="skill fw-lighter mt-5">
+            <h5>Expertise:</h5>
+            <div class="ms-3 d-flex flex-wrap gap-3">
+              <span class="bg-secondary px-2 py-1 rounded-5">React.js</span>
+              <span class="bg-secondary px-2 py-1 rounded-5">JavaScript</span>
+              <span class="bg-secondary px-2 py-1 rounded-5">Node.js</span>
+              <span class="bg-secondary px-2 py-1 rounded-5">Firebase</span>
+              <span class="bg-secondary px-2 py-1 rounded-5">Express.js</span>
+              <span class="bg-secondary px-2 py-1 rounded-5">HTML</span>
+              <span class="bg-secondary px-2 py-1 rounded-5">Bootstrap</span>
+              <span class="bg-secondary px-2 py-1 rounded-5">MongoDB</span>
+            </div>
+          </div>
+          <div class="skill fw-lighter mt-5">
+            <h5>Comfortable:</h5>
+            <div class="ms-3 d-flex flex-wrap gap-3">
+              <span class="bg-secondary px-2 py-1 rounded-5">SQL</span>
+              <span class="bg-secondary px-2 py-1 rounded-5">Redux</span>
+              <span class="bg-secondary px-2 py-1 rounded-5">Socket.io</span>
+              <span class="bg-secondary px-2 py-1 rounded-5">AWS</span>
+              <span class="bg-secondary px-2 py-1 rounded-5">Docker</span>
+              <span class="bg-secondary px-2 py-1 rounded-5">TypeScript</span>
+              <span class="bg-secondary px-2 py-1 rounded-5">Next.js</span>
+            </div>
+          </div>
+          <div class="skill fw-lighter mt-5">
+            <h5>Familiar::</h5>
+            <div class="ms-3 d-flex flex-wrap gap-3">
+              <span class="bg-secondary px-2 py-1 rounded-5">C++</span>
+              <span class="bg-secondary px-2 py-1 rounded-5">Python </span>
+              <span class="bg-secondary px-2 py-1 rounded-5">Spring Boot</span>
+              <span class="bg-secondary px-2 py-1 rounded-5">Networking</span>
+            </div>
+          </div>
+          <div class="skill fw-lighter mt-5">
+            <h5>Tools::</h5>
+            <div class="ms-3 d-flex flex-wrap gap-3">
+              <span class="bg-secondary px-2 py-1 rounded-5">VS Code</span>
+              <span class="bg-secondary px-2 py-1 rounded-5">JIRA </span>
+              <span class="bg-secondary px-2 py-1 rounded-5">Trello </span>
+              <span class="bg-secondary px-2 py-1 rounded-5">Git</span>
+              <span class="bg-secondary px-2 py-1 rounded-5">Github</span>
+            </div>
+          </div>
+        </div>
+        <div class="mt-5 text-center">
+          <h1 class="text-info">My Education</h1>
+          <p class="mb-0">B.Sc in CSE,</p>
+          <p class="mb-0">Manarat International University</p>
+          <p>CGPA: 3.91</p>
+          <p class="fw-lighter small">2021-2025</p>
+        </div>
+      </section>
+      <section class="contact mt-5">
+        <h1 class="text-center">Contact With Me</h1>
+        <form
+          action=""
+          class="border border-white border-1 border-secondary py-5  px-lg-5 rounded-3 col-lg-5 mx-auto b-shadow"
+        >
+          <div class="mb-3 col-10 mx-auto">
+            <input
+              type="text"
+              class="form-control"
+              id="name-input"
+              placeholder="Shaikh Nayeem Uddin"
+            />
+          </div>
+          <div class="mb-3 col-10 mx-auto">
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="snayeemu2@gmail.com"
+            />
+          </div>
+          <div class="col-10 mx-auto">
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+              placeholder="Type here message"
+            ></textarea>
+          </div>
+        </form>
+      </section>
+      <footer>Copyright &copy; 2020-2030</footer>
+      <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"
+      ></script>
+    </div>
+  </body>
 </html>
